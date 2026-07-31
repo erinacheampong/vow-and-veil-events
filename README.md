@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Vow & Veil Events offers thoughtful wedding planning and coordination throughout Southern California.">
+  <title>Vow & Veil Events | Southern California Wedding Planning</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="home">
+    <div class="header-inner shell">
+      <a class="brand" href="#home" aria-label="Vow and Veil Events home">
+        <img src="assets/vow-and-veil-logo.png" alt="Vow & Veil Events">
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#faq">FAQ</a>
+        <a class="nav-contact" href="mailto:erin@vowandveilevents.com?subject=Vow%20%26%20Veil%20Wedding%20Inquiry">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy shell">
+        <p class="eyebrow">Wedding planning & coordination<br>Southern California</p>
+        <h1 id="hero-title">Thoughtful planning.<br>Refined details.<br>Celebrations designed<br>with <em>intention.</em></h1>
+        <a class="button" href="mailto:erin@vowandveilevents.com?subject=Vow%20%26%20Veil%20Wedding%20Inquiry">Contact</a>
+      </div>
+      <figure class="hero-image">
+        <img src="assets/neutral-wedding-couple.png" alt="Bride and groom standing together on a bright stone terrace">
+        <figcaption>Photography by Duke Images</figcaption>
+      </figure>
+    </section>
+
+    <section class="intro section shell" aria-labelledby="intro-title">
+      <p class="eyebrow centered">Welcome to</p>
+      <h2 id="intro-title">Vow & Veil Events</h2>
+      <p class="intro-copy">We believe your wedding should feel effortless, personal, and beautifully you. With thoughtful planning, refined details, and calm support, we create celebrations that reflect your story and allow you to be fully present in every moment.</p>
+    </section>
+
+    <section class="services section shell" id="services" aria-labelledby="services-title">
+      <p class="eyebrow centered">Our services</p>
+      <h2 class="visually-hidden" id="services-title">Wedding planning services</h2>
+      <div class="service-grid">
+        <article>
+          <span class="service-icon" aria-hidden="true">◎</span>
+          <h3>Full Service Planning</h3>
+          <p>Comprehensive planning and design from concept through celebration, with thoughtful guidance at every step.</p>
+        </article>
+        <article>
+          <span class="service-icon" aria-hidden="true">☷</span>
+          <h3>Partial Planning</h3>
+          <p>Expert support for couples who have started planning and need help refining the vision and bringing it together.</p>
+        </article>
+        <article>
+          <span class="service-icon" aria-hidden="true">□</span>
+          <h3>Wedding Coordination</h3>
+          <p>Professional support in the months leading up to your wedding so every detail is organized and ready.</p>
+        </article>
+        <article>
+          <span class="service-icon" aria-hidden="true">⌒</span>
+          <h3>Day Of Coordination</h3>
+          <p>On-site management of the timeline, vendors, and details so you can relax and enjoy every moment.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="why section shell" aria-labelledby="why-title">
+      <p class="eyebrow centered">Why couples choose us</p>
+      <h2 class="visually-hidden" id="why-title">Why couples choose Vow and Veil Events</h2>
+      <div class="why-grid">
+        <div><h3>Poised</h3><p>Calm, confident support through every stage of planning.</p></div>
+        <div><h3>Prepared</h3><p>Thoughtful systems and careful attention to every detail.</p></div>
+        <div><h3>Personalized</h3><p>A celebration designed to reflect your story and style.</p></div>
+        <div><h3>Present</h3><p>Hands-on support so you can fully enjoy your wedding day.</p></div>
+      </div>
+    </section>
+
+    <section class="portfolio section shell" id="portfolio" aria-labelledby="portfolio-title">
+      <p class="eyebrow centered">Featured celebrations</p>
+      <h2 id="portfolio-title">Timeless moments. Thoughtfully designed.</h2>
+      <div class="portfolio-lead">
+        <figure class="wide-image">
+          <img src="assets/candlelit-reception.jpg" alt="Candlelit wedding reception table with red and blush floral arrangements">
+        </figure>
+        <div class="portfolio-copy">
+          <p>From intimate gatherings to grand celebrations, every detail is considered with beauty, intention, and care.</p>
+          <figure class="small-image">
+            <img src="assets/wedding-cake.jpg" alt="White tiered wedding cake surrounded by candlelight">
+            <figcaption>Photography by White Rabbit Photo Boutique</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section" id="about" aria-labelledby="about-title">
+      <div class="about-inner shell">
+        <figure>
+          <img src="assets/erin-bride.jpg" alt="Erin assisting a bride with the back of her wedding gown">
+        </figure>
+        <div class="about-copy">
+          <p class="eyebrow">Meet Erin</p>
+          <h2 id="about-title">Thoughtful. Calm. Experienced.</h2>
+          <p>With more than a decade of experience supporting weddings and large-scale events, Erin brings a calm presence, an eye for detail, and a passion for creating meaningful celebrations.</p>
+          <p>Her hands-on approach and thoughtful preparation help every wedding feel seamless, personal, and beautifully executed.</p>
+          <a class="text-link" href="mailto:erin@vowandveilevents.com?subject=Vow%20%26%20Veil%20Wedding%20Inquiry">Start a conversation</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery section shell" aria-labelledby="gallery-title">
+      <p class="eyebrow centered">A few favorites</p>
+      <h2 class="visually-hidden" id="gallery-title">Wedding portfolio favorites</h2>
+      <div class="gallery-grid">
+        <figure><img src="assets/bride-carriage.jpg" alt="Bride in a garden with a carriage"><figcaption>Photography by Duke Images</figcaption></figure>
+        <figure><img src="assets/erin-ceremony.jpg" alt="Erin coordinating an outdoor wedding ceremony"><figcaption>Photography by White Rabbit Photo Boutique</figcaption></figure>
+        <figure><img src="assets/candlelit-reception.jpg" alt="Candlelit floral wedding tablescape"></figure>
+        <figure><img src="assets/wedding-cake.jpg" alt="White tiered wedding cake"><figcaption>Photography by White Rabbit Photo Boutique</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="faq section shell" id="faq" aria-labelledby="faq-title">
+      <p class="eyebrow centered">Frequently asked questions</p>
+      <h2 class="visually-hidden" id="faq-title">Frequently asked questions</h2>
+      <div class="faq-list">
+        <details>
+          <summary>What services do you offer?</summary>
+          <p>We offer full service planning, partial planning, wedding coordination, and day of coordination. Each service is tailored to your celebration, planning progress, and support needs.</p>
+        </details>
+        <details>
+          <summary>How far in advance should we book?</summary>
+          <p>We recommend reaching out as soon as your wedding date and venue are confirmed. Full and partial planning clients often book 9 to 18 months in advance, while coordination services may be available closer to the wedding date.</p>
+        </details>
+        <details>
+          <summary>Do you plan weddings outside Southern California?</summary>
+          <p>Vow & Veil Events primarily serves Southern California. Travel may be considered for select celebrations based on location, timing, and event needs.</p>
+        </details>
+        <details>
+          <summary>Will you be there on our wedding day?</summary>
+          <p>Yes. Wedding coordination and planning packages include on-site support to oversee the timeline, communicate with vendors, manage key details, and help the celebration run smoothly.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="cta" aria-labelledby="cta-title">
+      <div class="cta-inner shell">
+        <div>
+          <p class="eyebrow">Let’s create something beautiful</p>
+          <h2 id="cta-title">Let’s bring your vision to life.</h2>
+          <p>We would be honored to be part of your celebration.</p>
+          <a class="button" href="mailto:erin@vowandveilevents.com?subject=Vow%20%26%20Veil%20Wedding%20Inquiry">Contact</a>
+        </div>
+        <img src="assets/wedding-cake.jpg" alt="Elegant wedding cake with ivory flowers and candlelight">
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner shell">
+      <img src="assets/vow-and-veil-logo.png" alt="Vow & Veil Events">
+      <a href="mailto:erin@vowandveilevents.com">erin@vowandveilevents.com</a>
+      <a href="https://www.instagram.com/vowandveilevents/" target="_blank" rel="noopener">@vowandveilevents</a>
+      <p>Serving Southern California</p>
+      <small>© 2026 Vow & Veil Events. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
