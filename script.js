@@ -1,21 +1,16 @@
-# Vow & Veil Events Website
+const toggle = document.querySelector('.menu-toggle');
+const nav = document.querySelector('.site-nav');
 
-## Publish on GitHub Pages
-1. Back up the current repository first.
-2. Upload `index.html`, `styles.css`, `script.js`, and the complete `assets` folder to the repository root.
-3. Commit the changes.
-4. In GitHub, open **Settings → Pages** and confirm the site deploys from the main branch and root folder.
-5. Keep the existing `CNAME` file if your custom domain is already connected.
+if (toggle && nav) {
+  toggle.addEventListener('click', () => {
+    const open = nav.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', String(open));
+  });
 
-## Contact link
-All Contact buttons open a new email to `erin@vowandveilevents.com` with the subject “Vow & Veil Wedding Inquiry.”
-
-## Photo credits included
-- Bride/carriage: Duke Images
-- Cake: White Rabbit Photo Boutique
-- Ceremony coordinator image: White Rabbit Photo Boutique
-
-
-## Hero image
-
-The homepage hero uses `assets/neutral-wedding-couple.png`.
+  nav.querySelectorAll('a').forEach((link) => {
+    link.addEventListener('click', () => {
+      nav.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+    });
+  });
+}
