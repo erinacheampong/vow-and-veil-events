@@ -39,6 +39,9 @@ h1{font-size:clamp(52px,6vw,88px)}h2{font-size:clamp(38px,4vw,58px)}h3{font-size
 /* SERVICES */
 .services-list{display:grid;gap:0}.service-row{display:grid;grid-template-columns:1fr 1fr;min-height:410px}.service-row:nth-child(even) .service-image{order:2}.service-row:nth-child(even) .service-copy{order:1}.service-image img{width:100%;height:100%;object-fit:cover}.service-copy{padding:64px 72px;display:flex;flex-direction:column;justify-content:center;background:#fff}.service-copy p{max-width:500px;margin:20px 0 28px}.service-copy .button{align-self:flex-start}.service-row.events .service-image{background:linear-gradient(135deg,#e9ded2,#f8f4ee)}
 .when-day{padding:90px 0;text-align:center;background:var(--ivory)}.when-day p{max-width:700px;margin:22px auto 0}
+.service-figure{margin:0}
+.service-credit{text-align:center}
+.footer-logo img{mix-blend-mode:multiply}
 /* FAQ */
 .faq-hero{padding:90px 0;background:linear-gradient(90deg,#f5eee7,#fbf8f4)}.faq-wrap{width:min(760px,calc(100% - 48px));margin:auto}.faq-list{padding:70px 0}.faq-list details{border-bottom:1px solid var(--line);padding:0}.faq-list summary{cursor:pointer;list-style:none;font-family:'Cormorant Garamond',Georgia,serif;font-size:25px;padding:22px 42px 22px 0;position:relative}.faq-list summary::-webkit-details-marker{display:none}.faq-list summary:after{content:'+';position:absolute;right:4px;color:var(--taupe)}.faq-list details[open] summary:after{content:'−'}.faq-list details p{padding:0 40px 24px 0;margin:0;color:#5d554d}.faq-bottom{display:grid;grid-template-columns:1fr 1fr;align-items:center;background:var(--ivory)}.faq-bottom .copy{padding:70px 8vw}.faq-bottom img{width:100%;height:360px;object-fit:cover}
 /* CONTACT */
