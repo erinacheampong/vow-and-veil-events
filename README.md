@@ -1,21 +1,19 @@
-# Vow & Veil Events Website
+# Vow & Veil Events website
 
-## Publish on GitHub Pages
-1. Back up the current repository first.
-2. Upload `index.html`, `styles.css`, `script.js`, and the complete `assets` folder to the repository root.
-3. Commit the changes.
-4. In GitHub, open **Settings → Pages** and confirm the site deploys from the main branch and root folder.
-5. Keep the existing `CNAME` file if your custom domain is already connected.
+Static GitHub Pages site.
 
-## Contact link
-All Contact buttons open a new email to `erin@vowandveilevents.com` with the subject “Vow & Veil Wedding Inquiry.”
+## Files
+- `index.html` — Home
+- `about.html` — About Erin
+- `services.html` — Services
+- `faq.html` — FAQ
+- `contact.html` — Contact form
+- `styles.css` — shared site styles
+- `script.js` — mobile menu and contact form mailto submission
+- `assets/` — logo and imagery
 
-## Photo credits included
-- Bride/carriage: Duke Images
-- Cake: White Rabbit Photo Boutique
-- Ceremony coordinator image: White Rabbit Photo Boutique
+## GitHub Pages
+Upload the full contents of this folder to the repository root and set GitHub Pages to deploy from the branch/root you use for the live site.
 
-
-## Hero image
-
-The homepage hero uses `assets/neutral-wedding-couple.png`.
+## Contact form
+Because GitHub Pages is static, the contact form currently opens a prefilled email to `erin@vowandveilevents.com`. It can be changed to Formspree later by replacing the JavaScript submission behavior with a Formspree form action.
