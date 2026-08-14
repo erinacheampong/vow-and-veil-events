@@ -34,10 +34,10 @@ h1{font-size:clamp(52px,6vw,88px)}h2{font-size:clamp(38px,4vw,58px)}h3{font-size
 .home-poster .poster-link{
   position:absolute;
   left:48.6%;
-  top:77.2%;
+  top:76.6%;
   transform:translate(-50%,-50%);
   width:21.5%;
-  height:10.5%;
+  height:12.8%;
   min-width:0;
   min-height:0;
   display:flex;
