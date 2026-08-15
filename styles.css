@@ -102,3 +102,26 @@ h1{font-size:clamp(52px,6vw,88px)}h2{font-size:clamp(38px,4vw,58px)}h3{font-size
 }
 @media(max-width:560px){.section{padding:72px 0}.service-preview-grid,.form-grid,.options,.footer-inner{grid-template-columns:1fr}.field.full{grid-column:auto}.home-copy{padding-top:58px}.home-services{padding-bottom:60px}.page-hero{padding:60px 0}.faq-wrap{width:calc(100% - 32px)}.faq-list summary{font-size:21px}.footer-logo img{width:180px}.home-poster img,.home-cta-poster img{width:100%;height:auto;min-height:0;object-fit:contain}
 .home-poster .poster-link,.home-cta-poster .poster-link{font-size:clamp(8px,2.4vw,11px);padding:0 .5rem}}
+
+.site-header .logo img{mix-blend-mode:multiply}
+
+@media(max-width:560px){
+  .home-poster .poster-link{
+    left:48.8%;
+    top:76.4%;
+    width:25%;
+    height:13.5%;
+    white-space:nowrap;
+    font-size:10px;
+    padding:0 .35rem;
+  }
+  .home-cta-poster .poster-link{
+    left:49.2%;
+    top:87.3%;
+    width:28%;
+    height:22%;
+    white-space:nowrap;
+    font-size:10px;
+    padding:0 .35rem;
+  }
+}
