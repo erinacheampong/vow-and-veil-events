@@ -1074,19 +1074,3 @@ h3{
     margin-top: 12px;
   }
 }
-/* Mobile homepage refinements */
-@media (max-width: 768px) {
-
-  /* Stronger, more polished CTA buttons */
-  .poster-link {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 220px;
-    min-height: 54px;
-    padding: 14px 28px;
-    font-size: 0.95rem;
-    letter-spacing: 0.12em;
-    line-height: 1;
-    text-align: center;
-  }
