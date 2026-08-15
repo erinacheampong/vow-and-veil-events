@@ -125,3 +125,259 @@ h1{font-size:clamp(52px,6vw,88px)}h2{font-size:clamp(38px,4vw,58px)}h3{font-size
     padding:0 .35rem;
   }
 }
+/* ==============================
+   MOBILE POLISH
+   ============================== */
+
+@media (max-width: 560px) {
+
+  /* GLOBAL */
+  body {
+    font-size: 15px;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  .site-shell {
+    width: calc(100% - 40px);
+  }
+
+  .section {
+    padding: 60px 0;
+  }
+
+  h1 {
+    font-size: clamp(42px, 12vw, 56px);
+    line-height: 1;
+  }
+
+  h2 {
+    font-size: clamp(34px, 9vw, 44px);
+    line-height: 1.05;
+  }
+
+  h3 {
+    font-size: 28px;
+    line-height: 1.08;
+  }
+
+  p {
+    margin-top: 16px;
+  }
+
+  /* HEADER */
+  .header-inner {
+    min-height: 76px;
+  }
+
+  .logo img {
+    width: 185px;
+  }
+
+  .menu-toggle {
+    width: 42px;
+    height: 42px;
+  }
+
+  .site-nav {
+    top: 76px;
+    padding: 28px 20px 32px;
+  }
+
+  /* HOME */
+  .home-copy {
+    padding: 52px 0 28px;
+  }
+
+  .home-copy p {
+    font-size: 15px;
+    line-height: 1.7;
+    max-width: 100%;
+  }
+
+  .home-services {
+    padding: 38px 0 58px;
+  }
+
+  .service-preview-grid {
+    grid-template-columns: 1fr;
+    gap: 0;
+    margin-top: 28px;
+  }
+
+  .service-preview {
+    padding: 28px 0;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .service-preview:first-child {
+    padding-top: 10px;
+  }
+
+  .service-preview:last-child {
+    border-bottom: 0;
+  }
+
+  .service-preview p {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+
+  /* INTERNAL PAGE HERO */
+  .page-hero,
+  .faq-hero {
+    padding: 54px 0;
+  }
+
+  .page-hero p {
+    padding: 0 8px;
+  }
+
+  /* ABOUT */
+  .about-grid,
+  .about-grid.reverse {
+    gap: 34px;
+  }
+
+  .about-photo img {
+    width: 100%;
+    height: auto;
+  }
+
+  .about-copy {
+    padding: 0;
+  }
+
+  .about-copy p {
+    margin-top: 16px;
+  }
+
+  .experience-block {
+    padding: 0 4px;
+  }
+
+  /* SERVICES */
+  .service-row {
+    min-height: 0;
+  }
+
+  .service-image img {
+    height: auto;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+  }
+
+  .service-copy {
+    padding: 42px 20px 46px;
+  }
+
+  .service-copy p {
+    margin: 16px 0 24px;
+  }
+
+  .service-copy .button {
+    width: 100%;
+    text-align: center;
+  }
+
+  .when-day {
+    padding: 60px 20px;
+  }
+
+  /* FAQ */
+  .faq-wrap {
+    width: calc(100% - 40px);
+  }
+
+  .faq-list {
+    padding: 46px 0;
+  }
+
+  .faq-list summary {
+    font-size: 21px;
+    line-height: 1.2;
+    padding: 20px 34px 20px 0;
+  }
+
+  .faq-list details p {
+    padding: 0 8px 22px 0;
+    line-height: 1.65;
+  }
+
+  .faq-bottom .copy {
+    padding: 48px 20px;
+  }
+
+  .faq-bottom img {
+    height: auto;
+    aspect-ratio: 4 / 3;
+  }
+
+  /* CONTACT */
+  .contact-hero .copy {
+    padding: 52px 20px;
+  }
+
+  .contact-hero img {
+    min-height: 0;
+    height: auto;
+    aspect-ratio: 4 / 3;
+  }
+
+  .contact-layout {
+    gap: 44px;
+    padding: 54px 0;
+  }
+
+  .form-grid,
+  .options {
+    grid-template-columns: 1fr;
+  }
+
+  .field input,
+  .field select,
+  .field textarea {
+    font-size: 16px;
+    padding: 14px;
+  }
+
+  .contact-side {
+    padding: 32px 0 0;
+  }
+
+  /* BUTTONS */
+  .button {
+    padding: 15px 22px;
+  }
+
+  /* FOOTER */
+  .site-footer {
+    padding: 42px 0 32px;
+  }
+
+  .footer-inner {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    align-items: start;
+  }
+
+  .footer-logo {
+    margin-bottom: 8px;
+  }
+
+  .footer-logo img {
+    width: 195px;
+  }
+
+  .footer-inner p,
+  .footer-inner a {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .copyright {
+    text-align: left;
+    margin-top: 12px;
+  }
+}
