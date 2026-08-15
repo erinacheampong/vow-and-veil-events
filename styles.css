@@ -19,15 +19,15 @@ button,input,select,textarea{font:inherit}
 .logo img{width:250px;height:auto}
 .site-nav{display:flex;align-items:center;gap:30px;font-family:'Cormorant Garamond',Georgia,serif;font-size:18px}
 .site-nav a{text-decoration:none}.site-nav a:hover{text-decoration:underline;text-underline-offset:5px}
-.nav-cta,.button{display:inline-block;background:var(--taupe);color:white;text-decoration:none;padding:14px 24px;letter-spacing:.08em;text-transform:uppercase;font-size:12px;border:0}
+.nav-cta,.button{display:inline-block;background:var(--ink);color:white;text-decoration:none;padding:14px 24px;letter-spacing:.08em;text-transform:uppercase;font-size:12px;border:0}
 .button.dark{background:var(--ink)}
-.nav-cta:hover,.button:hover,.poster-link:hover{background:var(--taupe-dark);text-decoration:none}
+.nav-cta:hover,.button:hover,.poster-link:hover{background:background:#000;;text-decoration:none}
 .menu-toggle{display:none;position:relative;width:44px;height:44px;padding:0;background:transparent;border:0;color:var(--ink);font-size:0;cursor:pointer}.menu-toggle::before,.menu-toggle::after{content:'';position:absolute;left:10px;width:24px;height:2px;background:currentColor;transition:transform .2s ease,top .2s ease,box-shadow .2s ease}.menu-toggle::before{top:13px;box-shadow:0 8px 0 currentColor,0 16px 0 currentColor}.menu-toggle::after{top:21px;opacity:0}.menu-toggle[aria-expanded='true']::before{top:21px;box-shadow:none;transform:rotate(45deg)}.menu-toggle[aria-expanded='true']::after{top:21px;opacity:1;transform:rotate(-45deg)}
 h1,h2,h3{font-family:'Cormorant Garamond',Georgia,serif;font-weight:500;line-height:1.05;margin:0}
 h1{font-size:clamp(52px,6vw,88px)}h2{font-size:clamp(38px,4vw,58px)}h3{font-size:clamp(27px,2.4vw,36px)}
 .eyebrow{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#71685e}
 .section{padding:100px 0}.center{text-align:center}.muted{color:#6f675f}
-.rule{width:42px;height:1px;background:var(--taupe);margin:22px 0}.center .rule{margin:22px auto}
+.rule{width:42px;height:1px;background:var(--ink);margin:22px 0}.center .rule{margin:22px auto}
 /* HOME */
 .home-poster{position:relative;background:#ddd;overflow:hidden}
 .home-poster img{width:100%;height:auto}
