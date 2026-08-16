@@ -27,6 +27,113 @@
 <meta name="twitter:image" content="https://vowandveilevents.com/social-preview.png">
 <!-- VOWVEIL SOCIAL META END -->
 
+<style>
+  .home-vision-section{
+    position:relative;
+    display:grid;
+    grid-template-columns:1fr;
+    align-items:stretch;
+    background:var(--paper);
+    overflow:hidden;
+  }
+
+  .home-vision-media{
+    grid-column:1;
+    grid-row:1;
+  }
+
+  .home-vision-media img{
+    width:100%;
+    height:auto;
+    display:block;
+  }
+
+  .home-vision-copy{
+    grid-column:1;
+    grid-row:1;
+    align-self:center;
+    justify-self:start;
+    max-width:520px;
+    margin-left:clamp(28px,6vw,72px);
+    padding:40px 0;
+    z-index:2;
+    color:var(--ink);
+  }
+
+  .home-vision-copy h2{
+    font-size:clamp(44px,5vw,74px);
+    margin:0 0 18px;
+  }
+
+  .home-vision-copy p{
+    font-size:clamp(18px,1.6vw,22px);
+    line-height:1.55;
+    max-width:420px;
+    margin:0 0 28px;
+  }
+
+  .home-vision-copy .button{
+    min-width:200px;
+    text-align:center;
+    background:var(--ink);
+    color:#fff;
+  }
+
+  @media (max-width:900px){
+    .home-vision-copy{
+      max-width:360px;
+      margin-left:32px;
+      padding:28px 0;
+    }
+
+    .home-vision-copy h2{
+      font-size:clamp(36px,7vw,52px);
+    }
+
+    .home-vision-copy p{
+      font-size:18px;
+      max-width:320px;
+    }
+  }
+
+  @media (max-width:640px){
+    .home-vision-section{
+      display:block;
+    }
+
+    .home-vision-media img{
+      width:100%;
+      height:auto;
+    }
+
+    .home-vision-copy{
+      position:static;
+      max-width:none;
+      margin:0;
+      padding:32px 24px 40px;
+      background:var(--paper);
+      text-align:left;
+    }
+
+    .home-vision-copy h2{
+      font-size:44px;
+      line-height:1;
+    }
+
+    .home-vision-copy p{
+      font-size:18px;
+      line-height:1.6;
+      max-width:none;
+    }
+
+    .home-vision-copy .button{
+      width:100%;
+      max-width:260px;
+      text-align:center;
+    }
+  }
+</style>
+
 </head>
 <body>
 <header class="site-header"><div class="header-inner site-shell">
@@ -52,8 +159,15 @@
       <div class="service-preview"><h3>Events &amp; Corporate</h3><p>Planning and coordination for milestone, private, nonprofit, and corporate events.</p></div>
     </div>
   </div></section>
-  <section class="home-cta-poster" aria-label="Vision to Reality. We believe in creating a high touch experience for our clients.">
-    <img src="home-vision-hero.png.png" alt="Vision to Reality. We believe in creating a high touch experience for our clients. Inquire now.">
+  <section class="home-vision-section" aria-label="Vision to Reality">
+    <div class="home-vision-media">
+      <img src="home-vision-photo.png.png" alt="Elegant event setting with floral arrangement and candlelight">
+    </div>
+    <div class="home-vision-copy">
+      <h2>Vision to Reality</h2>
+      <p>We believe in creating a high touch experience for our clients.</p>
+      <a class="button dark" href="contact.html">INQUIRE NOW</a>
+    </div>
   </section>
 </main>
 <footer class="site-footer"><div class="footer-inner site-shell">
