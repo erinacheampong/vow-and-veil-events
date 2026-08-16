@@ -27,6 +27,73 @@
 <meta name="twitter:image" content="https://vowandveilevents.com/social-preview.png">
 <!-- VOWVEIL SOCIAL META END -->
 
+<style>
+  /* Homepage poster copy is live text so it stays crisp and readable at every screen size. */
+  .home-poster-copy,
+  .home-cta-copy {
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    z-index:2;
+    text-align:center;
+    font-family:'Cormorant Garamond',Georgia,serif;
+    font-weight:500;
+    line-height:.98;
+    margin:0;
+  }
+
+  .home-poster-copy {
+    top:28%;
+    width:min(66%,760px);
+    padding:18px 28px 20px;
+    color:#171512;
+    background:rgba(255,253,249,.88);
+    font-size:clamp(42px,5vw,74px);
+    box-shadow:0 0 34px rgba(255,253,249,.5);
+  }
+
+  .home-cta-copy {
+    top:36%;
+    width:min(64%,760px);
+    padding:16px 24px 18px;
+    color:#fff;
+    background:rgba(23,21,18,.58);
+    font-size:clamp(40px,4.6vw,68px);
+    text-shadow:0 2px 14px rgba(0,0,0,.35);
+  }
+
+  @media (max-width:900px) {
+    .home-poster-copy {
+      top:25%;
+      width:72%;
+      font-size:clamp(34px,6.8vw,54px);
+    }
+
+    .home-cta-copy {
+      top:31%;
+      width:72%;
+      font-size:clamp(32px,6.4vw,50px);
+    }
+  }
+
+  @media (max-width:560px) {
+    .home-poster-copy {
+      top:20%;
+      width:84%;
+      padding:12px 14px 14px;
+      font-size:clamp(30px,9vw,42px);
+      line-height:1.02;
+    }
+
+    .home-cta-copy {
+      top:25%;
+      width:84%;
+      padding:12px 14px 14px;
+      font-size:clamp(29px,8.5vw,40px);
+      line-height:1.02;
+    }
+  }
+</style>
 </head>
 <body>
 <header class="site-header"><div class="header-inner site-shell">
@@ -35,8 +102,9 @@
   <nav id="site-nav" class="site-nav"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="faq.html">FAQ</a><a href="contact.html">Contact</a><a class="nav-cta" href="contact.html">BOOK YOUR DATE</a></nav>
 </div></header>
 <main>
-  <section class="home-poster" aria-label="Your celebration. Beautifully supported.">
-    <img src="home-hero-approved.png" alt="White bridal bouquet and flowing veil with Vow & Veil event planning message">
+  <section class="home-poster" aria-label="Your celebration. Beautifully planned. Beautifully supported.">
+    <img src="home-hero-approved.png" alt="White bridal bouquet and flowing veil">
+    <h1 class="home-poster-copy">Your celebration.<br>Beautifully planned.<br>Beautifully supported.</h1>
     <a class="poster-link" href="contact.html" aria-label="Book your date">BOOK YOUR DATE</a>
   </section>
   <section class="home-copy center"><div class="site-shell">
@@ -53,7 +121,8 @@
     </div>
   </div></section>
   <section class="home-cta-poster" aria-label="Thoughtful planning. Seamless execution.">
-    <img src="home-cta-approved.png" alt="Candlelit event table with Vow & Veil inquiry message">
+    <img src="home-cta-approved.png" alt="Candlelit event table">
+    <h2 class="home-cta-copy">Thoughtful planning.<br>Seamless execution.</h2>
     <a class="poster-link" href="contact.html" aria-label="Inquire now">INQUIRE NOW</a>
   </section>
 </main>
