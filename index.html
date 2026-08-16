@@ -28,7 +28,6 @@
 <!-- VOWVEIL SOCIAL META END -->
 
 <style>
-  /* Homepage poster copy is live text so it stays crisp and readable at every screen size. */
   .home-poster-copy,
   .home-cta-copy {
     position:absolute;
@@ -38,59 +37,57 @@
     text-align:center;
     font-family:'Cormorant Garamond',Georgia,serif;
     font-weight:500;
-    line-height:.98;
     margin:0;
+    padding:0;
+    background:transparent;
+    box-shadow:none;
   }
 
   .home-poster-copy {
     top:28%;
-    width:min(66%,760px);
-    padding:18px 28px 20px;
+    width:min(70%,800px);
     color:#171512;
-    background:rgba(255,253,249,.88);
-    font-size:clamp(42px,5vw,74px);
-    box-shadow:0 0 34px rgba(255,253,249,.5);
+    font-size:clamp(42px,5vw,72px);
+    line-height:1;
+    text-shadow:0 1px 10px rgba(255,255,255,.85);
   }
 
   .home-cta-copy {
     top:36%;
-    width:min(64%,760px);
-    padding:16px 24px 18px;
+    width:min(68%,780px);
     color:#fff;
-    background:rgba(23,21,18,.58);
-    font-size:clamp(40px,4.6vw,68px);
-    text-shadow:0 2px 14px rgba(0,0,0,.35);
+    font-size:clamp(40px,4.6vw,66px);
+    line-height:1;
+    text-shadow:0 2px 14px rgba(0,0,0,.6);
   }
 
   @media (max-width:900px) {
     .home-poster-copy {
       top:25%;
-      width:72%;
-      font-size:clamp(34px,6.8vw,54px);
+      width:76%;
+      font-size:clamp(34px,6.8vw,52px);
     }
 
     .home-cta-copy {
       top:31%;
-      width:72%;
-      font-size:clamp(32px,6.4vw,50px);
+      width:76%;
+      font-size:clamp(32px,6.4vw,48px);
     }
   }
 
   @media (max-width:560px) {
     .home-poster-copy {
       top:20%;
-      width:84%;
-      padding:12px 14px 14px;
-      font-size:clamp(30px,9vw,42px);
-      line-height:1.02;
+      width:88%;
+      font-size:clamp(29px,8.6vw,39px);
+      line-height:1.03;
     }
 
     .home-cta-copy {
       top:25%;
-      width:84%;
-      padding:12px 14px 14px;
-      font-size:clamp(29px,8.5vw,40px);
-      line-height:1.02;
+      width:88%;
+      font-size:clamp(28px,8.2vw,38px);
+      line-height:1.03;
     }
   }
 </style>
