@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Portfolio | Vow & Veil Events</title>
+  <meta name="description" content="Wedding portfolio by Vow & Veil Events featuring celebrations at The Biltmore Los Angeles and Disneyland Resort.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Vow &amp; Veil Events">
+  <meta property="og:title" content="Portfolio | Vow & Veil Events">
+  <meta property="og:description" content="Wedding portfolio by Vow & Veil Events.">
+  <meta property="og:url" content="https://vowandveilevents.com/portfolio.html">
+  <meta property="og:image" content="https://vowandveilevents.com/social-preview.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <style>
+    .portfolio-page{background:var(--paper)}
+    .portfolio-hero{padding:62px 0 50px;text-align:center;background:var(--paper)}
+    .portfolio-hero h1{font-size:clamp(54px,6vw,78px);letter-spacing:.015em}
+    .portfolio-section{padding:46px 0 92px}
+    .portfolio-section + .portfolio-section{padding-top:20px}
+    .portfolio-heading{text-align:center;margin-bottom:34px}
+    .portfolio-heading h2{font-family:Montserrat,Arial,sans-serif;font-size:14px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;line-height:1.4}
+    .portfolio-credit{margin:10px 0 0;font-size:11px;color:#80756b;letter-spacing:.02em}
+    .portfolio-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+    .portfolio-frame{margin:0;aspect-ratio:1.42/1;overflow:hidden;background:var(--ivory)}
+    .portfolio-frame img{width:100%;height:100%;display:block;object-fit:cover;object-position:center}
+    .portfolio-frame.biltmore-ceremony img{object-position:center 50%}
+    .portfolio-frame.biltmore-reception img{object-position:center 52%}
+    .portfolio-frame.biltmore-sweetheart img{object-position:center 49%}
+    .portfolio-frame.biltmore-detail img{object-position:center 50%}
+    .portfolio-frame.disney-bride img{object-position:center 50%}
+    .portfolio-frame.disney-draping img{object-position:center 56%}
+    .portfolio-frame.disney-cake img{object-position:center 50%}
+    .portfolio-frame.disney-couple img{object-position:center 50%}
+    @media(max-width:900px){
+      .portfolio-hero{padding:48px 0 38px}
+      .portfolio-section{padding:38px 0 72px}
+      .portfolio-heading{margin-bottom:26px}
+      .portfolio-grid{gap:14px}
+    }
+    @media(max-width:560px){
+      .portfolio-hero{padding:38px 0 30px}
+      .portfolio-hero h1{font-size:48px}
+      .portfolio-section{padding:30px 0 58px}
+      .portfolio-section + .portfolio-section{padding-top:4px}
+      .portfolio-heading{margin-bottom:20px}
+      .portfolio-heading h2{font-size:12px;letter-spacing:.12em}
+      .portfolio-credit{font-size:10px;margin-top:7px}
+      .portfolio-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+      .portfolio-frame{aspect-ratio:1.16/1}
+    }
+  </style>
+</head>
+<body class="portfolio-page">
+<header class="site-header"><div class="header-inner site-shell">
+  <a class="logo" href="index.html"><img src="Logo.png" alt="Vow & Veil Events"></a>
+  <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+  <nav id="site-nav" class="site-nav"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="faq.html">FAQ</a><a href="portfolio.html">Portfolio</a><a href="contact.html">Contact</a><a class="nav-cta" href="contact.html">Book Your Date</a></nav>
+</div></header>
+<main>
+  <section class="portfolio-hero"><div class="site-shell"><h1>Portfolio</h1></div></section>
+
+  <section class="portfolio-section"><div class="site-shell">
+    <div class="portfolio-heading">
+      <h2>The Biltmore Los Angeles</h2>
+      <p class="portfolio-credit">Photography by Duke Images</p>
+    </div>
+    <div class="portfolio-grid">
+      <figure class="portfolio-frame biltmore-ceremony"><img src="portfolio-biltmore-ceremony.jpg" alt="Wedding ceremony at The Biltmore Los Angeles"></figure>
+      <figure class="portfolio-frame biltmore-reception"><img src="portfolio-biltmore-reception.jpg" alt="Wedding reception at The Biltmore Los Angeles"></figure>
+      <figure class="portfolio-frame biltmore-sweetheart"><img src="portfolio-biltmore-sweetheart.jpg" alt="Sweetheart table at The Biltmore Los Angeles"></figure>
+      <figure class="portfolio-frame biltmore-detail"><img src="portfolio-biltmore-detail.jpg" alt="Wedding place setting at The Biltmore Los Angeles"></figure>
+    </div>
+  </div></section>
+
+  <section class="portfolio-section"><div class="site-shell">
+    <div class="portfolio-heading">
+      <h2>Disneyland Resort</h2>
+      <p class="portfolio-credit">Photography by The White Rabbit Photo Boutique</p>
+    </div>
+    <div class="portfolio-grid">
+      <figure class="portfolio-frame disney-bride"><img src="portfolio-disney-bride.jpg" alt="Bride with carriage at Disneyland Resort"></figure>
+      <figure class="portfolio-frame disney-draping"><img src="portfolio-disney-draping.jpg" alt="Wedding reception draping at Disneyland Resort"></figure>
+      <figure class="portfolio-frame disney-cake"><img src="portfolio-disney-cake.jpg" alt="Wedding cake at Disneyland Resort"></figure>
+      <figure class="portfolio-frame disney-couple"><img src="portfolio-disney-couple.jpg" alt="Wedding couple with carriage at Disneyland Resort"></figure>
+    </div>
+  </div></section>
+</main>
+<footer class="site-footer"><div class="footer-inner site-shell">
+  <a class="footer-logo" href="index.html"><img src="Logo.png" alt="Vow & Veil Events"></a>
+  <p>Weddings, celebrations and events throughout Southern California</p>
+  <a href="tel:+13239100789">323.910.0789</a>
+  <a href="https://www.instagram.com/vowveilevents/" target="_blank" rel="noopener">@vowveilevents</a>
+  <p class="copyright">© 2026 Vow &amp; Veil Events</p>
+</div></footer>
+<script src="script.js"></script>
+</body>
+</html>
