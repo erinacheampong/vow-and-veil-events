@@ -64,7 +64,7 @@
     width:100%;
     height:auto;
     display:block;
-    filter:saturate(.90) contrast(.96) brightness(1.02);
+    filter:saturate(.93) contrast(.97) brightness(1.04);
   }
 
   .home-vision-copy{
@@ -72,32 +72,40 @@
     grid-row:1;
     align-self:center;
     justify-self:start;
-    width:min(42vw,620px);
-    max-width:620px;
-    margin-left:clamp(34px,6.5vw,96px);
-    padding:40px 0;
+    width:min(44vw,640px);
+    max-width:640px;
+    margin-left:clamp(36px,5.8vw,88px);
+    padding:42px 0;
     z-index:2;
     color:var(--ink);
+    text-align:left;
   }
 
   .home-vision-copy h2{
-    font-size:clamp(50px,5.35vw,78px);
-    line-height:1;
+    font-family:"Cormorant Garamond",serif;
+    font-size:clamp(52px,5.2vw,80px);
+    font-weight:600;
+    letter-spacing:.005em;
+    line-height:.96;
     margin:0 0 20px;
+    max-width:620px;
   }
 
   .home-vision-copy p{
-    font-size:clamp(18px,1.45vw,22px);
-    line-height:1.5;
-    max-width:460px;
+    font-family:"Montserrat",sans-serif;
+    font-size:clamp(18px,1.35vw,21px);
+    font-weight:500;
+    letter-spacing:.035em;
+    line-height:1.55;
+    max-width:475px;
     margin:0 0 30px;
   }
 
   .home-vision-copy .button{
     width:32vw;
-    max-width:460px;
-    min-width:300px;
-    min-height:64px;
+    max-width:390px;
+    min-width:280px;
+    min-height:62px;
     display:inline-flex;
     align-items:center;
     justify-content:center;
@@ -105,15 +113,16 @@
     text-align:center;
     background:var(--ink);
     color:#fff;
-    font-size:clamp(13px,1vw,16px);
-    letter-spacing:.08em;
+    font-size:clamp(13px,1vw,15px);
+    font-weight:500;
+    letter-spacing:.11em;
   }
 
   @media (max-width:900px){
     .home-vision-copy{
-      width:46vw;
-      max-width:430px;
-      margin-left:32px;
+      width:47vw;
+      max-width:440px;
+      margin-left:30px;
       padding:28px 0;
     }
 
@@ -123,16 +132,16 @@
     }
 
     .home-vision-copy p{
-      font-size:18px;
+      font-size:17px;
       max-width:360px;
       margin-bottom:26px;
     }
 
     .home-vision-copy .button{
-      width:32vw;
-      max-width:360px;
-      min-width:260px;
-      min-height:58px;
+      width:30vw;
+      max-width:330px;
+      min-width:245px;
+      min-height:56px;
       font-size:13px;
     }
   }
@@ -162,9 +171,9 @@
       position:relative;
       z-index:2;
       width:auto;
-      max-width:66%;
+      max-width:64%;
       margin:0;
-      padding:72px 0 28px 7.5%;
+      padding:70px 0 28px 7%;
       background:transparent;
       text-align:left;
       color:var(--ink);
@@ -172,27 +181,29 @@
 
     .home-vision-copy h2{
       font-size:clamp(42px,11vw,52px);
-      line-height:.98;
+      font-weight:600;
+      line-height:.96;
       margin:0 0 16px;
       max-width:245px;
     }
 
     .home-vision-copy p{
-      font-size:clamp(14px,3.8vw,16px);
+      font-size:clamp(14px,3.7vw,16px);
+      font-weight:500;
       line-height:1.45;
-      max-width:230px;
-      margin:0 0 18px;
+      max-width:225px;
+      margin:0 0 20px;
     }
 
     .home-vision-copy .button{
-      width:210px;
+      width:205px;
       min-width:0;
-      max-width:210px;
+      max-width:205px;
       min-height:48px;
       padding:0 18px;
       text-align:center;
       font-size:11px;
-      letter-spacing:.08em;
+      letter-spacing:.1em;
     }
   }
 </style>
@@ -224,12 +235,12 @@
   </div></section>
   <section class="home-vision-section" aria-label="Vision to Reality">
     <div class="home-vision-media">
-      <img src="home-vision-photo.png.png" alt="Elegant event setting with floral arrangement and candlelight">
+      <img src="home-vision-photo.png.png" alt="Elegant bridal details with flowing veil, white florals, rings, perfume, candle and stationery">
     </div>
     <div class="home-vision-copy">
       <h2>Vision to Reality</h2>
       <p>We believe in creating a high touch experience for our clients.</p>
-      <a class="button dark" href="contact.html">INQUIRE NOW</a>
+      <a class="button dark" href="services.html">LEARN MORE</a>
     </div>
   </section>
 </main>
