@@ -22,54 +22,144 @@
 <!-- VOWVEIL SOCIAL META END -->
 
 <style>
-  .about-intro-photo{
-    grid-column:1;
-    grid-row:1;
+  .about-page .page-hero{
+    padding:64px 0 68px;
+  }
+
+  .about-page .about-section{
+    padding:76px 0;
+  }
+
+  .about-page .about-grid{
+    grid-template-columns:1fr 1fr;
+    gap:56px;
+    align-items:center;
   }
 
   .about-intro-copy{
+    grid-column:1;
+    grid-row:1;
+    max-width:540px;
+  }
+
+  .about-intro-photo{
     grid-column:2;
     grid-row:1;
+    margin:0;
   }
 
   .about-intro-photo img{
     width:100%;
-    height:560px;
+    height:520px;
     object-fit:contain;
     object-position:center top;
     background:#f4f0eb;
   }
 
+  .about-page .about-copy p{
+    margin:16px 0 0;
+  }
+
+  .about-page .about-copy .rule,
+  .about-page .experience-block .rule{
+    margin-top:18px;
+    margin-bottom:18px;
+  }
+
+  .about-behind-grid{
+    grid-template-columns:.95fr 1.05fr !important;
+  }
+
+  .about-behind-grid .about-photo{
+    margin:0;
+  }
+
+  .about-behind-grid .about-photo img{
+    height:500px;
+  }
+
+  .about-page .experience-section{
+    padding:72px 0 78px;
+  }
+
+  .about-page .experience-block{
+    max-width:760px;
+  }
+
+  .about-page .experience-block p{
+    margin-top:16px;
+  }
+
   @media(max-width:900px){
-    .about-intro-photo,
-    .about-intro-copy{
+    .about-page .page-hero{
+      padding:52px 0 56px;
+    }
+
+    .about-page .about-section,
+    .about-page .experience-section{
+      padding:58px 0;
+    }
+
+    .about-page .about-grid,
+    .about-behind-grid{
+      grid-template-columns:1fr !important;
+      gap:34px;
+    }
+
+    .about-intro-copy,
+    .about-intro-photo{
       grid-column:auto;
       grid-row:auto;
     }
 
-    .about-intro-photo img{
+    .about-intro-copy{
+      order:1;
+      max-width:none;
+    }
+
+    .about-intro-photo{
+      order:2;
+    }
+
+    .about-intro-photo img,
+    .about-behind-grid .about-photo img{
       width:100%;
       height:auto;
-      max-height:620px;
+      max-height:560px;
       object-fit:contain;
       object-position:center top;
-      background:#f4f0eb;
+    }
+  }
+
+  @media(max-width:560px){
+    .about-page .page-hero{
+      padding:44px 0 48px;
+    }
+
+    .about-page .about-section,
+    .about-page .experience-section{
+      padding:48px 0;
+    }
+
+    .about-page .about-grid,
+    .about-behind-grid{
+      gap:28px;
     }
   }
 </style>
 
-</head><body>
+</head><body class="about-page">
 <header class="site-header"><div class="header-inner site-shell"><a class="logo" href="index.html"><img src="Logo.png" alt="Vow & Veil Events"></a><button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button><nav id="site-nav" class="site-nav"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="faq.html">FAQ</a><a href="contact.html">Contact</a><a class="nav-cta" href="contact.html">Book Your Date</a></nav></div></header>
 <main>
 <section class="page-hero"><div class="site-shell"><h1 class="page-title">About</h1><div class="rule"></div><p>Founder of Vow &amp; Veil Events</p></div></section>
-<section class="section"><div class="site-shell about-grid">
-  <figure class="about-photo about-intro-photo"><img src="/erin-headshot.jpg?v=3" alt="Erin, founder and planner at Vow & Veil Events"></figure>
+<section class="section about-section"><div class="site-shell about-grid">
   <div class="about-copy about-intro-copy"><h2>Meet Erin</h2><div class="rule"></div><p>Erin founded Vow &amp; Veil Events to provide experienced, polished support for weddings, life celebrations, milestone events, and corporate gatherings throughout Southern California.</p><p>With more than a decade of experience in events, guest experience, vendor coordination, and event production, she brings a highly organized approach to every celebration.</p><p>Vow &amp; Veil was created for clients who want expert, white glove service without losing the personality and meaning behind their event.</p></div>
+  <figure class="about-photo about-intro-photo"><img src="/erin-headshot.jpg?v=4" alt="Erin, founder and planner at Vow & Veil Events"></figure>
 </div></section>
-<section class="section" style="background:var(--ivory)"><div class="site-shell about-grid reverse">
+<section class="section about-section" style="background:var(--ivory)"><div class="site-shell about-grid about-behind-grid">
   <figure class="about-photo contain"><img src="erin-behind-scenes.jpg" alt="Erin assisting a bride with her wedding gown"><figcaption class="credit">Photography by White Rabbit Photo Boutique</figcaption></figure>
   <div class="about-copy"><h2>Behind the Scenes</h2><div class="rule"></div><p>Every event has moving parts, but the people at the center of it should not have to manage them.</p><p>Erin focuses on the details, communication, timing, and logistics behind the scenes so clients can be present for the moments they gathered to celebrate.</p><p>Whether it is a wedding, milestone celebration, private gathering, or corporate event, the goal is the same: to create an experience that feels polished, personal, and fully supported from beginning to end.</p></div>
 </div></section>
-<section class="section"><div class="site-shell experience-block"><h2>More Than a Decade of Events</h2><div class="rule"></div><p>Erin has spent more than a decade working throughout Southern California across weddings, private celebrations, nonprofit events, corporate events, and large guest experiences.</p><p>That background brings perspective, flexibility, and the ability to stay composed when plans change.</p><p>Because a successful event is not only about how it looks. It is about how it feels to experience it.</p></div></section>
+<section class="section experience-section"><div class="site-shell experience-block"><h2>More Than a Decade of Events</h2><div class="rule"></div><p>Erin has spent more than a decade working throughout Southern California across weddings, private celebrations, nonprofit events, corporate events, and large guest experiences.</p><p>That background brings perspective, flexibility, and the ability to stay composed when plans change.</p><p>Because a successful event is not only about how it looks. It is about how it feels to experience it.</p></div></section>
 </main>
 <footer class="site-footer"><div class="footer-inner site-shell"><a class="footer-logo" href="index.html"><img src="Logo.png" alt="Vow & Veil Events"></a><p>Weddings, celebrations and events throughout Southern California</p><a href="tel:+13239100789">323.910.0789</a><a href="https://www.instagram.com/vowveilevents/" target="_blank" rel="noopener">@vowveilevents</a><p class="copyright">© 2026 Vow &amp; Veil Events</p></div></footer><script src="script.js"></script></body></html>
