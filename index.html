@@ -224,6 +224,16 @@
   }
 </style>
 
+<style>
+.planning-experience{padding:68px 0;background:var(--ivory)}
+.planning-experience .planning-intro{max-width:680px;margin:20px auto 0}
+.planning-steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px;list-style:none;padding:0;margin:36px 0;text-align:left;counter-reset:planning}
+.planning-steps li{border-top:1px solid var(--line);padding-top:20px;counter-increment:planning}
+.planning-steps li:before{content:"0" counter(planning);display:block;font:12px/1.5 Montserrat,Arial,sans-serif;color:#71685e;letter-spacing:.15em;margin-bottom:14px}
+.planning-steps h3{font-size:30px}.planning-steps p{font-size:14px;color:#5f5851;margin:14px 0 0}
+@media(max-width:900px){.planning-steps{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.planning-experience{padding:48px 0}.planning-steps{grid-template-columns:1fr;gap:24px}}
+</style>
 </head>
 <body>
 <header class="site-header"><div class="header-inner site-shell">
@@ -243,12 +253,18 @@
   <section class="home-services center"><div class="site-shell">
     <h2>Planning Support for Every Stage</h2>
     <div class="service-preview-grid">
-      <div class="service-preview"><h3>Full Wedding Planning</h3><p>Support from the first decisions through the wedding day.</p></div>
-      <div class="service-preview"><h3>Partial Wedding Planning</h3><p>Professional guidance to bring together plans already in motion.</p></div>
-      <div class="service-preview"><h3>Day of Coordination</h3><p>Experienced support to manage the wedding day you have already planned.</p></div>
-      <div class="service-preview"><h3>Milestone Celebrations &amp; Corporate Events</h3><p>Planning and coordination for milestone celebrations, private gatherings, nonprofit events, and corporate experiences.</p></div>
+      <div class="service-preview"><h3>Full Wedding Planning</h3><p>Support from the first decisions through the wedding day.</p><a href="full-wedding-planning.html" style="display:inline-block;font-size:13px;text-underline-offset:4px;padding:8px 0">Explore Full Planning</a></div>
+      <div class="service-preview"><h3>Partial Wedding Planning</h3><p>Professional guidance to bring together plans already in motion.</p><a href="partial-wedding-planning.html" style="display:inline-block;font-size:13px;text-underline-offset:4px;padding:8px 0">Explore Partial Planning</a></div>
+      <div class="service-preview"><h3>Day of Coordination</h3><p>Experienced support to manage the wedding day you have already planned.</p><a href="day-of-coordination.html" style="display:inline-block;font-size:13px;text-underline-offset:4px;padding:8px 0">Explore Day of Coordination</a></div>
+      <div class="service-preview"><h3>Milestone Celebrations &amp; Corporate Events</h3><p>Planning and coordination for milestone celebrations, private gatherings, nonprofit events, and corporate experiences.</p><a href="milestone-corporate-events.html" style="display:inline-block;font-size:13px;text-underline-offset:4px;padding:8px 0">Explore Event Planning</a></div>
     </div>
   </div></section>
+<section class="planning-experience center" aria-labelledby="planning-experience-title"><div class="site-shell"><p class="eyebrow">Your Planning Experience</p><h2 id="planning-experience-title">From the first hello.</h2><p class="planning-intro">Tell us what you are imagining and where you need support. We will help you find a starting point that feels right for your celebration.</p><ol class="planning-steps">
+<li><h3>Share Your Vision</h3><p>Send your date, venue if selected, and a little about the celebration you have in mind.</p></li>
+<li><h3>Let’s Connect</h3><p>A complimentary consultation gives us a chance to discuss your priorities, plans and the level of support you need.</p></li>
+<li><h3>Reserve Your Date</h3><p>Review your proposal and service agreement. Your signed agreement and required payment secure your booking.</p></li>
+<li><h3>Move Forward Together</h3><p>With your scope confirmed, we outline the next steps for your package, from planning support to preparing for event day coordination.</p></li>
+</ol><a class="button" href="contact.html">Book Your Complimentary Consultation</a></div></section>
   <section class="home-vision-section" aria-label="Vision to Reality">
     <div class="home-vision-media">
       <img src="home-vision-photo.png" alt="Elegant bridal details with flowing veil, white florals, rings, perfume, candle and stationery">
