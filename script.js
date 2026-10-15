@@ -111,7 +111,7 @@ if (inquiryForm) {
       }
     } catch (error) {
       if (status) {
-        status.textContent = 'We could not send your inquiry. Please try again or call 323.910.0789.';
+        status.innerHTML = 'We could not send your inquiry. Please try again, <a href="mailto:erin@vowandveilevents.com">email us directly</a>, or call <a href="tel:+13239100789">323.910.0789</a>.';
         status.hidden = false;
         status.focus();
       }
