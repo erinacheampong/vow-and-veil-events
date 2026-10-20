@@ -74,6 +74,12 @@ document
 // Submit the inquiry form without leaving the site and show a clear confirmation.
 const inquiryForm = document.querySelector('#inquiry-form');
 if (inquiryForm) {
+  const requestedService = new URLSearchParams(window.location.search).get('service');
+  if (requestedService) {
+    inquiryForm.querySelectorAll('input[name="service"]').forEach((option) => {
+      if (option.value === requestedService) option.checked = true;
+    });
+  }
   const submitButton = inquiryForm.querySelector('button[type="submit"]');
   const status = inquiryForm.querySelector('#form-status');
 
