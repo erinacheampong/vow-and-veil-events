@@ -77,7 +77,17 @@ if (inquiryForm) {
   const requestedService = new URLSearchParams(window.location.search).get('service');
   if (requestedService) {
     inquiryForm.querySelectorAll('input[name="service"]').forEach((option) => {
-      if (option.value === requestedService) option.checked = true;
+      if (option.value === requestedService) {
+        option.checked = true;
+        option.defaultChecked = true;
+        const eventType = requestedService === 'Milestone Celebrations & Corporate Events' ? null : 'Wedding';
+        inquiryForm.querySelectorAll('input[name="event_type"]').forEach((eventOption) => {
+          if (eventOption.value === eventType) {
+            eventOption.checked = true;
+            eventOption.defaultChecked = true;
+          }
+        });
+      }
     });
   }
   const submitButton = inquiryForm.querySelector('button[type="submit"]');
@@ -85,6 +95,8 @@ if (inquiryForm) {
 
   inquiryForm.addEventListener('submit', async (event) => {
     event.preventDefault();
+
+    if (submitButton && submitButton.disabled) return;
 
     if (!inquiryForm.checkValidity()) {
       inquiryForm.reportValidity();
@@ -100,9 +112,12 @@ if (inquiryForm) {
       status.textContent = '';
     }
 
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 15000);
     try {
       const response = await fetch(inquiryForm.action, {
         method: 'POST',
+        signal: controller.signal,
         body: new FormData(inquiryForm),
         headers: { Accept: 'application/json' }
       });
@@ -122,6 +137,7 @@ if (inquiryForm) {
         status.focus();
       }
     } finally {
+      clearTimeout(timeout);
       if (submitButton) {
         submitButton.disabled = false;
         submitButton.textContent = 'Submit Inquiry';
@@ -129,3 +145,4 @@ if (inquiryForm) {
     }
   });
 }
+
